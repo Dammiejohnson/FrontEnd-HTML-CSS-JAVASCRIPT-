@@ -1,0 +1,192 @@
+*{font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    width: 70%;
+    margin:0 auto;
+    /* height: 90vh; */
+}
+
+.header {
+    display: flex;
+    justify-content:right;
+    background-color: white; 
+
+}
+
+.work {
+    padding-right: 20px;
+}
+
+.blog {
+    padding-right: 20px;
+}
+
+.contact {
+    padding-right: 20px;
+}
+
+.introduction_and_picture {
+    display: flex;
+    height: 350px;
+    margin-top: 5em;
+}
+
+.introduction {
+    padding: 2em;
+    margin-left: 3em;
+    height: 60%;
+}
+
+.picture {
+    margin-left: 7em;
+    padding-bottom: 2em;
+}
+
+.picture img {
+    border-radius: 170%;
+}
+
+.introduction button {
+    background-color: red;
+    color: white;
+    border: unset;
+    border-radius: 4px;
+    box-shadow: none;
+    height: 40px;
+    width: 15em;
+    font-size: medium;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(244, 246, 248);
+    height: 350px;
+    border-radius: 10px;
+}
+
+.recent_file {
+    padding-right: 20px;
+    margin-left: 2.2em;
+
+}
+
+.view_all_link {
+    padding-top: 1.8em;
+    margin-right: 2em;
+}
+
+.design_holder {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    justify-content: space-between;
+    padding-top: 3em;
+    margin: right 20px;
+    margin-top: 1em;
+}
+
+.design_system1{
+    width: 45%;
+    background-color: white;
+    height: 250px;
+    padding-left: 20px;
+    margin-left: 2em;
+    border-radius: 10px;
+}
+.design_system2{
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-radius: 10px;
+}
+
+.design_content {
+    font-size: smaller;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.featured_works {
+    margin-left: 5em;
+}
+
+.featured_work1 {
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.image_fw1 img{
+    border-radius: 10px;
+}
+
+.fw_content1 {
+    margin-left: 2em;
+}
+
+.fw_content1 h2 {
+    margin-block-start: 0;
+}
+.fw_button1 {
+    display: flex;
+}
+
+.fw_button1 button {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    width: 50px;
+    height: 20px;
+    font-size: smaller;
+    font-weight: 800;
+    margin-top: 1.3em;
+}
+.fw_button1 p{
+    margin-left: 3em;
+    font-style: italic;
+}
+
+.fw_content_text {
+    font-size: smaller;
+    padding-right: 5em;
+}
+
+.footer_line hr{
+ margin-top: 2em;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:7em;
+}
+
+.social_icons {
+    display: flex;
+}
+
+.social_icons svg {
+    margin-right: 1rem;
+}
+
+.social_container{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    margin-left:18em;
+}
+
+.copyright_text {
+    margin-left: 3em;
+}
+
