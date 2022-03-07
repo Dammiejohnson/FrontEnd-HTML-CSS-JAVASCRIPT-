@@ -1,11 +1,7 @@
 *{font-family: 'Poppins', sans-serif;}
 
-.body {
-    margin:  0;
-}
-
 .container {
-    width: 100vw;
+    width: 85vw;
 }
 
 .main-header {
@@ -79,7 +75,8 @@
     height: 47px;
     border-radius: 8px;
     border-color: azure;
-    cursor:pointer
+    cursor:pointer;
+    border-style: none;
 }
 
 .sign-in button:hover {
@@ -141,7 +138,7 @@
     padding-left: 70px;
     position: absolute;
     top: -4rem;
-    left: 55rem;
+    left: 56rem;
 }
 
 .hero-image2 p {
@@ -161,4 +158,88 @@
     height: 40%;
     margin-left: 7em;
 
+}
+
+.sponsors p {
+    margin-left: 2em;
+}
+
+.sponsor-icons img {
+    margin-left: 2em;
+
+}
+
+.payment-tool {
+    width: 1092px;
+    height: 900px;
+    padding: 5em 15em;
+    
+
+}
+
+.payment-info {
+    margin-left: 14em;
+}
+
+.payment-info span{
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+    font-size: 70px; 
+     
+}
+
+.payment-info h1{
+    font-family: 'Fira Sans', sans-serif;
+    color: orange;
+    font-size: 70px; 
+}
+
+.payment-container{
+    display: flex;
+    margin: 5em;
+    justify-content: space-evenly;
+}
+
+.payment-feature h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    
+}
+
+.checkout{
+    margin-left: 9em;
+    width: 85%;
+}
+
+.checkout1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 12em;
+    font-weight: bold;
+}
+
+.payment-feature {
+    height: 70px;
+    margin: 0%;
+}
+
+.payment-feature span {
+    color: rgb(224, 152, 17);
+    font-weight: 800;
+}
+
+.payment-and-transfer {
+    margin-left: 3em;
+    display: block;
+    width: 87%;
+
+}
+
+.checkout3{
+    margin-top: 18em;
+}
+
+.payment-phone img {
+    margin-left: 5em;
 }
