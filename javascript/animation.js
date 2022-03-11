@@ -39,7 +39,7 @@ function movement (person) {
 //character is a variable that holds an object which makes it an object 
 // based on the key-value pairs that it holds.
 //movement is the function that serves as the argument in the function animation
-//but movement has its own parameter "person" which is used to call the keys of object character 
+//but movement has its own parameter "person" which is used to call the keys of obj ect character 
 
 // animation(movement)
 
